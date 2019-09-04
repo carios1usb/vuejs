@@ -1,7 +1,7 @@
 <template>
   <b-row>
     <h2 class="text-center col-md-12">Proyectos activos</h2>
-    <div v-for="item in list" class="col-md-3 col-xs-12">
+    <div v-for="item in list" v-bind:key='item' class="col-md-3 col-xs-12">
         <b-card
           tag="article"
           class="my-3 col-xs-12 col-md-12"

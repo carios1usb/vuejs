@@ -78,7 +78,7 @@ export default {
   axios: {
     /* set API_URL environment variable to configure access to the API
      */
-    baseURL: process.env.API_URL || "https://pre.vivendo.co/",
+    baseURL: process.env.API_URL || "http://pruebas.vivendo.co/",
     redirectError: {
       401: "/login",
       404: "/notfound"
